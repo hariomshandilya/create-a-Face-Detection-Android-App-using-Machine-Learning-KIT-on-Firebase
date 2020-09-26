@@ -245,3 +245,9 @@ import java.util.List;
   
         // finding the elements by their id's alloted. 
         cameraButton = findViewById(R.id.camera_button); 
+// setting an onclick listener to the button so as 
+        // to request image capture using camera 
+        cameraButton.setOnClickListener( 
+            new View.OnClickListener() { 
+                @Override
+                public void onClick(View v) 
