@@ -159,4 +159,16 @@ public class ResultDialog extends DialogFragment {
         resultText = bundle.getString( 
             LCOFaceDetection.RESULT_TEXT); 
         resultTextView.setText(resultText); 
-  
+   // Onclick listener so as 
+        // to make a dismissable button 
+        okBtn.setOnClickListener( 
+            new View.OnClickListener() { 
+                @Override
+                public void onClick(View v) 
+                { 
+                    dismiss(); 
+                } 
+            }); 
+        return view; 
+    } 
+}
