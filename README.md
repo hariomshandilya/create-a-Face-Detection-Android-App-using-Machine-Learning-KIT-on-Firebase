@@ -371,3 +371,10 @@ catch (Exception e) {
                                       Toast.LENGTH_SHORT) 
                             .show(); 
                     } 
+  else { 
+                        Bundle bundle = new Bundle(); 
+                        bundle.putString( 
+                            LCOFaceDetection.RESULT_TEXT, 
+                            resultText); 
+                        DialogFragment resultDialog 
+                            = new ResultDialog(); 
