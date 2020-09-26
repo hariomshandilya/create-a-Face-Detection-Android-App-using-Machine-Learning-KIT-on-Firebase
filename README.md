@@ -177,3 +177,26 @@ Open Camera on a Real Device and Enabling Face Detection
 Below is the example code for the main java file.
 There is a need of FirebaseVision and FirebaseVisionFaceDetector classes for this.
 Here’s a list of all the settings you can configure in your face detection model.
+Performance mode	
+FAST (default) | ACCURATE
+
+Favor speed or accuracy when detecting faces.
+
+
+
+Detect landmarks	
+NO_LANDMARKS (default) | ALL_LANDMARKS
+
+Whether to attempt to identify facial “landmarks”: 
+
+eyes, ears, nose, cheeks, mouth, and so on.
+
+Detect contours	
+NO_CONTOURS (default) | ALL_CONTOURS
+
+Whether to detect the contours of facial features. 
+
+Contours are detected for only the most prominent face in an image.
+
+Classify faces	
+NO_CLASSIFICATIONS (default) | ALL_CLASSIFICATIONS
