@@ -5,3 +5,6 @@ Step 1: Create a New Project
 Open a new project in android studio with whatever name you want.
 We are gonna work with empty activity for the particular project.
 The minimum SDK required for this particular project is 23, so choose any API of 23 or above.
+The language used for this project would be JAVA.
+Leave all the options other than those mentioned above, untouched.
+Click on FINISH.
