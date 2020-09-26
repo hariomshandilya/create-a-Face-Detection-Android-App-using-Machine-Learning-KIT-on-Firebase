@@ -24,3 +24,5 @@ implementation ‘com.google.firebase:firebase-ml-vision:17.0.0’
 
 Now copy the below-mentioned text, and paste it at the very end of the app level Gradle, outside all the brackets as shown in the image below.
 apply plugin: ‘com.google.gms.google-services’
+Next, go to bulid.gradle (project) and copy the below-mentioned text, and paste it in ‘dependencies’ classpath as shown in the image below.
+classpath ‘com.google.gms:google-services:4.2.0’
