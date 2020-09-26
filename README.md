@@ -119,3 +119,9 @@ public class LCOFaceDetection extends Application {
     } 
 }
     Create a new java class namely, ResultDialog.java and superclass, DialogFragment, which is the java file for the fragment_resultdialog.xml. Below is the example code for java file.
+import android.os.Bundle; 
+import android.view.LayoutInflater; 
+import android.view.View; 
+import android.view.ViewGroup; 
+import android.widget.Button; 
+import android.widget.TextView; 
