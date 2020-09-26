@@ -42,3 +42,8 @@ xmlns:tools="http://schemas.android.com/tools"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
+ android:text=CAMERA
+        android:layout_marginBottom="100dp"
+        android:padding="16dp"
+        android:id="@+id/camera_button"/> 
+</androidx.constraintlayout.widget.ConstraintLayout>
