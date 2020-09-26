@@ -31,3 +31,7 @@ classpath ‘com.google.gms:google-services:4.2.0’
     tools:context=".MainActivity"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"> 
+  
