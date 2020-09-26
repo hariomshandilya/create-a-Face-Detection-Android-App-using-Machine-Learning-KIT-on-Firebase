@@ -293,3 +293,14 @@ super.onActivityResult(requestCode, resultCode,
             detectFace(bitmap); 
         } 
     } 
+// If you want to configure your face detection model 
+    // according to your needs, you can do that with a 
+    // FirebaseVisionFaceDetectorOptions object. 
+    private void detectFace(Bitmap bitmap) 
+    { 
+        FirebaseVisionFaceDetectorOptions options 
+            = new FirebaseVisionFaceDetectorOptions 
+                  .Builder() 
+                  .setModeType( 
+                      FirebaseVisionFaceDetectorOptions 
+                          .ACCURATE_MODE) 
