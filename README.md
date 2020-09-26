@@ -52,3 +52,6 @@ xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent" 
     android:layout_width="match_parent" 
     xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:android="http://schemas.android.com/apk/res/android"> 
+  
