@@ -328,3 +328,14 @@ catch (Exception e) {
         // It’s time to prepare our Face Detection model. 
         detector.detectInImage(image) 
             .addOnSuccessListener(new OnSuccessListener<List<FirebaseVisionFace> >() { 
+@Override
+                // adding an onSuccess Listener, i.e, in case 
+                // our image is successfully detected, it will 
+                // append it's attribute to the result 
+                // textview in result dialog box. 
+                public void onSuccess( 
+                    List<FirebaseVisionFace> 
+                        firebaseVisionFaces) 
+                { 
+                    String resultText = ""; 
+                    int i = 1; 
