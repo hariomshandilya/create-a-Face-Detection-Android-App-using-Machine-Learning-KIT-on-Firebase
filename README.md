@@ -8,3 +8,11 @@ The minimum SDK required for this particular project is 23, so choose any API of
 The language used for this project would be JAVA.
 Leave all the options other than those mentioned above, untouched.
 Click on FINISH.
+Login or signup on Firebase.
+In Firebase console, create a new project or if you wanna work with an existing project then open that.
+Name the project as per your choice.
+Go to Docs.
+Click on Firebase ML, and in the left space, choose ‘recognize text‘ under Vision.
+Go through the steps mentioned for better understanding.
+Come back to Android Studio.
+Go to Tools -> Firebase -> Analytics -> Connect with Firebase -> Choose your project from the dialog box appeared -> Click Connect. (This step connects your android app to the Firebase)
