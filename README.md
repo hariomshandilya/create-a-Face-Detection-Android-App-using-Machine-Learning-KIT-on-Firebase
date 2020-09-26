@@ -79,3 +79,8 @@ app:layout_constraintStart_toStartOf="parent"
                 android:gravity="center"
                 android:text="LCOFaceDetection"
                 android:textColor="#000000"
+android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"/> 
+            
