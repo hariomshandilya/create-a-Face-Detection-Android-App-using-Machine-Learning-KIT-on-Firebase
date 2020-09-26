@@ -16,3 +16,11 @@ Click on Firebase ML, and in the left space, choose ‘recognize text‘ under V
 Go through the steps mentioned for better understanding.
 Come back to Android Studio.
 Go to Tools -> Firebase -> Analytics -> Connect with Firebase -> Choose your project from the dialog box appeared -> Click Connect. (This step connects your android app to the Firebase)
+Step 3: Custom Assets and Gradle
+
+For enhancing the GUI either choose an image of .png format and add it in the res folder and set it as the background of main .xml file, or  set a background color by going to the design view of the layout and customizing background under Declared Attributes
+To, include the ML KIT dependencies, in the app, go to Gradle Script -> build.gradle(Module:app) and add an implementation mentioned below:
+implementation ‘com.google.firebase:firebase-ml-vision:17.0.0’
+
+Now copy the below-mentioned text, and paste it at the very end of the app level Gradle, outside all the brackets as shown in the image below.
+apply plugin: ‘com.google.gms.google-services’
