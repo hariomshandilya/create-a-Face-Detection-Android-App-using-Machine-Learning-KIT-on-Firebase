@@ -152,3 +152,11 @@ public class ResultDialog extends DialogFragment {
         resultTextView 
             = view.findViewById(R.id.result_text_view); 
   
+ // To get the result text 
+        // after final face detection 
+        // and append it to the text view. 
+        Bundle bundle = getArguments(); 
+        resultText = bundle.getString( 
+            LCOFaceDetection.RESULT_TEXT); 
+        resultTextView.setText(resultText); 
+  
