@@ -240,3 +240,8 @@ import java.util.List;
         super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_main); 
   
+ // initializing our firebase in main activity 
+        FirebaseApp.initializeApp(this); 
+  
+        // finding the elements by their id's alloted. 
+        cameraButton = findViewById(R.id.camera_button); 
