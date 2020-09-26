@@ -200,3 +200,43 @@ Contours are detected for only the most prominent face in an image.
 
 Classify faces	
 NO_CLASSIFICATIONS (default) | ALL_CLASSIFICATIONS
+/*package whatever do not write package name here*/
+  
+import androidx.annotation.NonNull; 
+import androidx.annotation.Nullable; 
+import androidx.appcompat.app.AppCompatActivity; 
+import androidx.fragment.app.DialogFragment; 
+import android.content.Intent; 
+import android.graphics.Bitmap; 
+import android.os.Bundle; 
+import android.provider.MediaStore; 
+import android.view.View; 
+import android.widget.Button; 
+import android.widget.Toast; 
+import com.google.android.gms.tasks.OnFailureListener; 
+import com.google.android.gms.tasks.OnSuccessListener; 
+import com.google.firebase.FirebaseApp; 
+import com.google.firebase.ml.vision.FirebaseVision; 
+import com.google.firebase.ml.vision.common.FirebaseVisionImage; 
+import com.google.firebase.ml.vision.common.FirebaseVisionPoint; 
+import com.google.firebase.ml.vision.face.FirebaseVisionFace; 
+import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetector; 
+import com.google.firebase.ml.vision.face.FirebaseVisionFaceDetectorOptions; 
+import com.google.firebase.ml.vision.face.FirebaseVisionFaceLandmark; 
+import java.util.List; 
+  public class MainActivity extends AppCompatActivity { 
+    Button cameraButton; 
+  
+    // whenever we request for our customized permission, we 
+    // need to declare an integer and initialize it to some 
+    // value . 
+    private final static int REQUEST_IMAGE_CAPTURE = 124; 
+    FirebaseVisionImage image; 
+    FirebaseVisionFaceDetector detector; 
+  
+    @Override
+    protected void onCreate(Bundle savedInstanceState) 
+    { 
+        super.onCreate(savedInstanceState); 
+        setContentView(R.layout.activity_main); 
+  
