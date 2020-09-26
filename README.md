@@ -147,3 +147,8 @@ public class ResultDialog extends DialogFragment {
             R.layout.fragment_resultdialog, container, 
             false); 
         String resultText = ""; 
+  // finding the elements by their id's. 
+        okBtn = view.findViewById(R.id.result_ok_button); 
+        resultTextView 
+            = view.findViewById(R.id.result_text_view); 
+  
