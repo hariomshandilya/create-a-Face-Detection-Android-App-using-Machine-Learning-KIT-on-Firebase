@@ -84,3 +84,10 @@ android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"/> 
              <!--a button with text 'ok' written on it-->
+<Button
+                android:id="@+id/result_ok_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/result_text_view"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
