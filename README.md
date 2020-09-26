@@ -311,6 +311,12 @@ super.onActivityResult(requestCode, resultCode,
                       FirebaseVisionFaceDetectorOptions 
                           .ALL_CLASSIFICATIONS) 
                           // we need to create a FirebaseVisionImage object 
+                          
+                         try { 
+            image = FirebaseVisionImage.fromBitmap(bitmap); 
+            detector = FirebaseVision.getInstance() 
+                           .getVisionFaceDetector(options); 
+        } 
         // from the above mentioned image types(bitmap in 
         // this case) and pass it to the model. 
                   .build(); 
