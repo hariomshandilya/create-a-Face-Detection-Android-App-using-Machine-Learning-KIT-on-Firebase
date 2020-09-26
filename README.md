@@ -70,3 +70,5 @@ app:layout_constraintStart_toStartOf="parent"
  app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"> 
+ <!--text view to diplay the result text 
+                          after reading an image-->
