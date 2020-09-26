@@ -392,3 +392,13 @@ resultDialog.setArguments(bundle);
                 @Override
                 public void onFailure(@NonNull Exception e) 
                 { 
+ Toast 
+                        .makeText( 
+                            MainActivity.this, 
+                            "Oops, Something went wrong", 
+                            Toast.LENGTH_SHORT) 
+                        .show(); 
+                } 
+            }); 
+    } 
+}
