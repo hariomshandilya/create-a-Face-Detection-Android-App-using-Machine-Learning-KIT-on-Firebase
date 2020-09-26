@@ -362,3 +362,12 @@ catch (Exception e) {
                                       + "%"); 
                         i++; 
                     } 
+// if no face is detected, give a toast 
+                    // message. 
+                    if (firebaseVisionFaces.size() == 0) { 
+                        Toast 
+                            .makeText(MainActivity.this, 
+                                      "NO FACE DETECT", 
+                                      Toast.LENGTH_SHORT) 
+                            .show(); 
+                    } 
