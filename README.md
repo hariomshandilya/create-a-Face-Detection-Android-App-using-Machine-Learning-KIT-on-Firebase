@@ -172,3 +172,8 @@ public class ResultDialog extends DialogFragment {
         return view; 
     } 
 }
+Open Camera on a Real Device and Enabling Face Detection
+
+Below is the example code for the main java file.
+There is a need of FirebaseVision and FirebaseVisionFaceDetector classes for this.
+Here’s a list of all the settings you can configure in your face detection model.
