@@ -251,3 +251,14 @@ import java.util.List;
             new View.OnClickListener() { 
                 @Override
                 public void onClick(View v) 
+{ 
+  
+                    // makin a new intent for opening camera 
+                    Intent intent = new Intent( 
+                        MediaStore.ACTION_IMAGE_CAPTURE); 
+                    if (intent.resolveActivity( 
+                            getPackageManager()) 
+                        != null) { 
+                        startActivityForResult( 
+                            intent, REQUEST_IMAGE_CAPTURE); 
+                    } 
