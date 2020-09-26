@@ -138,3 +138,12 @@ public class ResultDialog extends DialogFragment {
     onCreateView(@NonNull LayoutInflater inflater, 
                  @Nullable ViewGroup container, 
                  @Nullable Bundle savedInstanceState) 
+ { 
+  
+        // importing View so as to inflate 
+        // the layout of our result dialog 
+        // using layout inflater. 
+        View view = inflater.inflate( 
+            R.layout.fragment_resultdialog, container, 
+            false); 
+        String resultText = ""; 
