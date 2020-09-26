@@ -55,3 +55,7 @@ xmlns:tools="http://schemas.android.com/tools"
 xmlns:app="http://schemas.android.com/apk/res-auto" 
     xmlns:android="http://schemas.android.com/apk/res/android"> 
   
+<ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
