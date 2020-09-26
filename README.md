@@ -349,3 +349,16 @@ catch (Exception e) {
                                       "\nSmile: "
                                       + face.getSmilingProbability() 
                                             * 100
+ + "%") 
+                                  .concat( 
+                                      "\nleft eye open: "
+                                      + face.getLeftEyeOpenProbability() 
+                                            * 100
+                                      + "%") 
+                                  .concat( 
+                                      "\nright eye open "
+                                      + face.getRightEyeOpenProbability() 
+                                            * 100
+                                      + "%"); 
+                        i++; 
+                    } 
