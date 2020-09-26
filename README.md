@@ -47,3 +47,8 @@ xmlns:tools="http://schemas.android.com/tools"
         android:padding="16dp"
         android:id="@+id/camera_button"/> 
 </androidx.constraintlayout.widget.ConstraintLayout>
+<?xml version="1.0" encoding="UTF-8"?> 
+<androidx.constraintlayout.widget.ConstraintLayout 
+    android:layout_height="match_parent" 
+    android:layout_width="match_parent" 
+    xmlns:tools="http://schemas.android.com/tools"
