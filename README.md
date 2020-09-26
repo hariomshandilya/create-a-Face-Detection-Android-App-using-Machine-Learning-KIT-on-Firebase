@@ -262,3 +262,16 @@ import java.util.List;
                         startActivityForResult( 
                             intent, REQUEST_IMAGE_CAPTURE); 
                     } 
+else { 
+                        // if the image is not captured, set 
+                        // a toast to display an error image. 
+                        Toast 
+                            .makeText( 
+                                MainActivity.this, 
+                                "Something went wrong", 
+                                Toast.LENGTH_SHORT) 
+                            .show(); 
+                    } 
+                } 
+            }); 
+    } 
