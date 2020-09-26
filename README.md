@@ -378,3 +378,11 @@ catch (Exception e) {
                             resultText); 
                         DialogFragment resultDialog 
                             = new ResultDialog(); 
+resultDialog.setArguments(bundle); 
+                        resultDialog.setCancelable(true); 
+                        resultDialog.show( 
+                            getSupportFragmentManager(), 
+                            LCOFaceDetection.RESULT_DIALOG); 
+                    } 
+                } 
+            })
