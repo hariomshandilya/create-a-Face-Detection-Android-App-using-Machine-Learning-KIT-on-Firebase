@@ -98,3 +98,9 @@ android:layout_marginBottom="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/result_text_view"/>
+</RelativeLayout> 
+  
+    </ScrollView> 
+  
+</androidx.constraintlayout.widget.ConstraintLayout>
+Create a new java class by java -> new -> class -> Name: LCOFaceDetection.java -> superclass: Application(android.app.Application). Below is the example source code for the java class.
