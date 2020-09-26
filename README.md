@@ -339,3 +339,13 @@ catch (Exception e) {
                 { 
                     String resultText = ""; 
                     int i = 1; 
+ for (FirebaseVisionFace face : 
+                         firebaseVisionFaces) { 
+                        resultText 
+                            = resultText 
+                                  .concat("\nFACE NUMBER. "
+                                          + i + ": ") 
+                                  .concat( 
+                                      "\nSmile: "
+                                      + face.getSmilingProbability() 
+                                            * 100
