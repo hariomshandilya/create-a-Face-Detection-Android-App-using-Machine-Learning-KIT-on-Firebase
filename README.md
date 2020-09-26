@@ -321,3 +321,10 @@ super.onActivityResult(requestCode, resultCode,
         // this case) and pass it to the model. 
                   .build(); 
   
+catch (Exception e) { 
+            e.printStackTrace(); 
+        } 
+  
+        // It’s time to prepare our Face Detection model. 
+        detector.detectInImage(image) 
+            .addOnSuccessListener(new OnSuccessListener<List<FirebaseVisionFace> >() { 
