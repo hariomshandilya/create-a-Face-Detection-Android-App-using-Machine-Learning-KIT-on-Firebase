@@ -386,3 +386,9 @@ resultDialog.setArguments(bundle);
                     } 
                 } 
             })
+// adding an onfailure listener as well if 
+            // something goes wrong. 
+            .addOnFailureListener(new OnFailureListener() { 
+                @Override
+                public void onFailure(@NonNull Exception e) 
+                { 
