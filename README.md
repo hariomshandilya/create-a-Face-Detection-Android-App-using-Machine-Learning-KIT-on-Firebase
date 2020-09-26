@@ -284,3 +284,12 @@ else {
         // easy way to detect faces from variety of image 
         // types like Bitmap 
   
+super.onActivityResult(requestCode, resultCode, 
+                               data); 
+        if (requestCode == REQUEST_IMAGE_CAPTURE 
+            && resultCode == RESULT_OK) { 
+            Bundle extra = data.getExtras(); 
+            Bitmap bitmap = (Bitmap)extra.get("data"); 
+            detectFace(bitmap); 
+        } 
+    } 
