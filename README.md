@@ -304,3 +304,11 @@ super.onActivityResult(requestCode, resultCode,
                   .setModeType( 
                       FirebaseVisionFaceDetectorOptions 
                           .ACCURATE_MODE) 
+                          .setLandmarkType( 
+                      FirebaseVisionFaceDetectorOptions 
+                          .ALL_LANDMARKS) 
+                  .setClassificationType( 
+                      FirebaseVisionFaceDetectorOptions 
+                          .ALL_CLASSIFICATIONS) 
+                  .build(); 
+  
