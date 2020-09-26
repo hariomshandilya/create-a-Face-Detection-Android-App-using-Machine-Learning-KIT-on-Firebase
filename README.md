@@ -104,3 +104,10 @@ android:layout_marginBottom="5dp"
   
 </androidx.constraintlayout.widget.ConstraintLayout>
 Create a new java class by java -> new -> class -> Name: LCOFaceDetection.java -> superclass: Application(android.app.Application). Below is the example source code for the java class.
+mport android.app.Application; 
+import com.google.firebase.FirebaseApp; 
+  
+public class LCOFaceDetection extends Application { 
+    public final static String RESULT_TEXT = "RESULT_TEXT"; 
+    public final static String RESULT_DIALOG = "RESULT_DIALOG";
+    
