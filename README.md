@@ -26,3 +26,8 @@ Now copy the below-mentioned text, and paste it at the very end of the app level
 apply plugin: ‘com.google.gms.google-services’
 Next, go to bulid.gradle (project) and copy the below-mentioned text, and paste it in ‘dependencies’ classpath as shown in the image below.
 classpath ‘com.google.gms:google-services:4.2.0’
+<?xml version="1.0" encoding="UTF-8"?> 
+<androidx.constraintlayout.widget.ConstraintLayout
+    tools:context=".MainActivity"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
