@@ -279,3 +279,8 @@ else {
     protected void onActivityResult(int requestCode, 
                                     int resultCode, 
                                     @Nullable Intent data) 
+{ 
+        // after the image is captured, ML Kit provides an 
+        // easy way to detect faces from variety of image 
+        // types like Bitmap 
+  
