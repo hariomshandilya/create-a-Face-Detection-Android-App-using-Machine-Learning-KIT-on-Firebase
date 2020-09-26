@@ -72,3 +72,10 @@ app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"> 
  <!--text view to diplay the result text 
                           after reading an image-->
+<TextView
+                android:id="@+id/result_text_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LCOFaceDetection"
+                android:textColor="#000000"
