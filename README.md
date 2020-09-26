@@ -118,4 +118,4 @@ public class LCOFaceDetection extends Application {
         FirebaseApp.initializeApp(this); 
     } 
 }
-    
+    Create a new java class namely, ResultDialog.java and superclass, DialogFragment, which is the java file for the fragment_resultdialog.xml. Below is the example code for java file.
